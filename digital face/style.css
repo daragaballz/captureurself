@@ -1,0 +1,48 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+/* Adjust the header video style */
+#header-video {
+    max-width: 50%;
+    max-height: 60vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+/* Centering the canvas container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Reduce space between elements */
+}
+
+/* Clickable video (acts as capture button) */
+#capture-video {
+    width: 500px; /* Smaller size */
+    max-width: 90%;
+    height: auto;
+    margin-bottom: 10px; /* Space before canvas */
+    cursor: pointer;
+    border-radius: 8px;
+    gap: 2
+    px;
+}
+
+/* Canvas container styles */
+#canvas-container {
+    border: none;
+    display: inline-block;
+}
